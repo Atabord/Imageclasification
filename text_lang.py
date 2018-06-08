@@ -10,7 +10,7 @@ directory = os.path.join(
     os.path.dirname(__file__),
     'imagenes')
 
-imagesList = (file for file in os.listdir(directory) if file.endswith('.' + "jpg") or file.endswith('.' + "jpeg") or file.endswith('.' + "gif"))
+imagesList = (file for file in os.listdir(directory) if file.endswith('.' + "jpg") or file.endswith('.' + "jpeg") or file.endswith('.' + "gif") or file.endswith('.' + "png"))
 # print(list(imagesList))
 
 def createFolder(name):
